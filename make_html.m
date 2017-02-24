@@ -32,14 +32,14 @@ disp(['Creating contents.html file in ' cdirectory])
 
 fid = fopen('contents.html','w');
 
-fprintf(fid,'<TITLE> Distributions library </TITLE>\n');
+fprintf(fid,'<TITLE> Utility functions library </TITLE>\n');
 fprintf(fid,'<BODY> \n');
 fprintf(fid,'<A HREF = "../html/view.html" target="FRP">[Return to Master Index]</A>\n');
 fprintf(fid,'</BR> \n');
 fprintf(fid,'</BR> \n');
 
 fprintf(fid,'<pre> \n');
-fprintf(fid,'-------- pdf, cdf, inverse and random deviate functions -------- \n');
+fprintf(fid,'-------- utility functions -------- \n');
 fprintf(fid,'</pre> \n');
 
 
